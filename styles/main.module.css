@@ -1,7 +1,7 @@
 .main{
     border: solid black;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -108,4 +108,30 @@
 }
 .gameover b{
   font-size: 24px;
+}
+@media screen and (max-width: 700px) {
+  @-webkit-keyframes moveX {
+    from { left: 0; } to { left: 880px; }
+  }
+  @-moz-keyframes moveX {
+    from { left: 0; } to { left: 880px; }
+  }
+  @-o-keyframes moveX {
+    from { left: 0; } to { left: 880px; }
+  }
+  @keyframes moveX {
+    from { left: 0; } to { left: 880px; }
+  }
+  @-webkit-keyframes moveY {
+    from { top: 0; } to { top: 880px; }
+  }
+  @-moz-keyframes moveY {
+    from { top: 0; } to { top: 880px; }
+  }
+  @-o-keyframes moveY {
+    from { top: 0; } to { top: 880px; }
+  }
+  @keyframes moveY {
+    from { top: 0; } to { top: 880px; }
+  }
 }
